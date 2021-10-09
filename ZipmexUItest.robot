@@ -34,4 +34,4 @@ Sell_TC
     ${SELL_TOTAL}=  get value  //*[@id="root"]/div[1]/div[2]/div[2]/div[2]/div/div/div[2]/form[2]/div[1]/div[4]/div/div/div[2]/input
     Log to console  \nTrade USDTUSD\nwith side = SELL\nwith price = ${Sell_NEW} \nbuy price is 1.00\nbut total is ${SELL_TOTAL}
     
-    ##robot -d results tests/zipmex/ZipmexUItest.robot
+   
